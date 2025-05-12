@@ -1,0 +1,65 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600&display=swap");
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #1b1d1f; */
+  /* color: red; */
+  color: #d2d5da;
+  margin: 0;
+  padding: 0;
+  font-family: Be Vietnam Pro, sans-serif;
+}
+
+@theme {
+  --font-vietnam: "Be Vietnam Pro", sans-serif;
+}
+
+.col {
+  color: red;
+}
+
+.small {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.medium {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.semi-bold {
+  font-size: 1rem;
+  font-weight: 400;
+}
+bold {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+@media (max-width: 480px) {
+  .smaller {
+    flex-direction: column;
+
+    text: center;
+  }
+  .smaller-margin {
+    margin-bottom: 9px;
+  }
+  .smaller-padding {
+    padding-bottom: 7rem;
+  }
+  .smaller-flag {
+    width: 10rem;
+    height: 8rem;
+  }
+  .center {
+    margin: auto;
+
+    width: 50%;
+  }
+}
