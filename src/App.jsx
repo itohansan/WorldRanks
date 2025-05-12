@@ -1,4 +1,3 @@
-import "./App.css";
 import CountryDetails from "./Pages/CountryDetails";
 import CountryRankingPage from "./Pages/CountryRankingPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
